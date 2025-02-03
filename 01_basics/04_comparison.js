@@ -2,7 +2,7 @@
 // console.log(2>=1);
 // console.log(2<1);
 // console.log(2==1);
-// console.log(2!=1);
+// console.log(2!=1);  // they are they simple comparison.
 
 
 
@@ -16,7 +16,7 @@ console.log("02">1);
 // #2
 // console.log(null>0)    /*here the value of null not equal to zero. */
 // console.log(null==0)   /* here the value of null not equal to zero. */
-// console.log(null>=0)   /*here js interpreate that the value of null is zero. */
+// console.log(null>=0)   /*here js interpretate that the value of null is zero. */
 // output:-
 // false
 // false
@@ -28,7 +28,4 @@ console.log("02">1);
 // console.log("2"===2) 
 // output:-
 // false
-
-
-
 
