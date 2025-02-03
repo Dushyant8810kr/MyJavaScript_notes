@@ -1,15 +1,18 @@
 // Dates
 
+//imp thing :- Date is an object.
+
+
 /*
 let myDate = new Date()
 
-console.log(myDate);//1
-console.log(myDate.toString());//2
-console.log(myDate.toDateString());//3
-console.log(myDate.toISOString());//4
-console.log(myDate.toJSON());//5
-console.log(myDate.toLocaleDateString());//6
-console.log(myDate.toLocaleString());//7
+console.log(myDate);//#1
+console.log(myDate.toString());//#2
+console.log(myDate.toDateString());//#3
+console.log(myDate.toISOString());//#4
+console.log(myDate.toJSON());//#5
+console.log(myDate.toLocaleDateString());//#6
+console.log(myDate.toLocaleString());//#7
 
 console.log(typeof myDate)
 
@@ -28,6 +31,7 @@ Sat Jan 04 2025
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+// js mai months "0" se start hote hai
 // let myCreateDate = new Date(2023,0,23)  //#1
 // let myCreateDate = new Date(2023,0,23,5,3)  //#2
 // let myCreateDate = new Date("2023-01-14")  //#3 (not prefer in india)
@@ -35,7 +39,7 @@ Sat Jan 04 2025
 
 // console.log(myCreateDate.toLocaleString())
 
-// let myTimeStamp = Date.now()
+// let myTimeStamp = Date.now() //**********
 
 // console.log(myTimeStamp)
 // console.log(myCreateDate.getTime())
@@ -56,7 +60,9 @@ let newDate = new Date()
 
 // important
 newDate.toLocaleString('default',{
-    weekday : "long"
+    weekday : "long",
+    timeZone
+
 })
 
 
