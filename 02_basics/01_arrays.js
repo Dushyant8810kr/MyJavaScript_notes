@@ -1,4 +1,5 @@
 // Arrays
+//in js the array is a colletion of items may or may not of different data types...
 
 const myArr = [0,1,2,3,4,5] //#1
 const myHeroes = ["Shaktiman","spiderman","Wolverine"] //#2
@@ -22,7 +23,7 @@ console.log(myArr);
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++==
 
-const newArr = myArr.join() // they changes the type of Array
+const newArr = myArr.join() // they changes the type of Array(changes to "string")
 
 console.log(myArr);
 console.log(newArr);
@@ -39,6 +40,6 @@ console.log(myn1)
 console.log("B",myArr)
 
 
-const myn2 = myArr.splice(1,3) // by this property the original Array will change after execution/
+const myn2 = myArr.splice(1,3) // by this property the original Array will change after execution.
 console.log("c",myArr)
 console.log(myn2);
