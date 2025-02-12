@@ -83,7 +83,7 @@ console.log(instruture)
 
 // json API ::::-------
 
-// API ka matlab simple hindi mai y hota hai ki apna kaam dusr ke saar pe daal dena....
+// API ka matlab simple hindi mai ye hota hai ki apna kaam dusr ke saar pe daal dena....
 
 
 // {
