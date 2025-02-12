@@ -1,6 +1,9 @@
 // objects can be declared by two types :: -- 1)by literal and 2) by constructor...
 
+//agar object declare hoga by literals then object singlton nhi hoga and by constructor declare karenge to object singleton hoga.
+//Singleton ka matlab hota hai ki apn jaise unique object..
 // singleton
+//object.create
 
 
 // object literals
@@ -25,12 +28,14 @@ const JsUser = {
 // console.log(JsUser["email"])
 
 //#3
-// console.log(JsUser["full name"]); // Doing this....Not this { console.log(JsUser.full name); }
+// console.log(JsUser["full name"]); // Doing this....Not this { console.log(JsUser.full name); } //because it shos error.
 
 console.log(JsUser[mySym]);
-console.log(typeof JsUser[mySym]);// they have type of string not symbol so use '[mySym ] : "myKey1",' in object to c reate this as symbol.. and also doing this "console.log(JsUser[mySym]);"
+console.log(typeof JsUser[mySym]);// they have type of string not symbol so use '[mySym ] : "myKey1",' in object to create this as symbol.. and also doing this "console.log(JsUser[mySym]);"
 
 JsUser.email = "Dushyant2004@gamil.com"  // by this syntax we can change any value of any key by accesss them..
+
+
 
 //agar tumhe object ki key ki value ko change nhi karna or use fixed karna hai to given below syntax ko follow karoo..
 // Object.freeze(JsUser)

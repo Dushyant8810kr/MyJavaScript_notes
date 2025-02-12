@@ -31,10 +31,10 @@ const obj2 = {3:"c" ,4:"d"}
 // const obj3 = {obj1,obj2}  // this thing have problem not in syntax but jo hme chaiye vo answer nhi aa rha hai isse.
 
 // #2
-// const obj3 = Object.assign(obj1,obj2)
+// const obj3 = Object.assign(obj1,obj2) // by this we can merge objects..
 
 // #3
-// const obj3 = Object.assign({},obj1,obj2)
+// const obj3 = Object.assign({},obj1,obj2) // but we can use this one 
 
 //#4
 const obj3 ={...obj1,...obj2} //90% time isse hii use karngee...
