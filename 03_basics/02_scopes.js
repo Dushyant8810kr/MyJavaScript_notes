@@ -9,7 +9,7 @@ if (true) {
     const b = 20
     var c = 30
 }
-// if ke andar jo likha hai us e block scope kehte hai..and if ke bhar wala code jo likha hai use hum global scope ... the block scope does not interfare with the global scope and vice-versa 
+// if ke andar jo likha hai use block scope kehte hai..and if ke bhar wala code jo likha hai use hum global scope ... the block scope does not interfare with the global scope and vice-versa 
 
 // console.log(a);
 // console.log(b);

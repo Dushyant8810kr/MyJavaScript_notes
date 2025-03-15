@@ -27,7 +27,7 @@ function sayMyName (){
 
 
 // Example 2 ::::------
-function addTwoNumbers(number1,number2){ 
+function addTwoNumbers(number1,number2){ // number1,number2 are the parameter.
     // let result = number1 + number2
     // return result
 
@@ -35,11 +35,11 @@ function addTwoNumbers(number1,number2){
 
 }
 
-const result = addTwoNumbers(3,5)
+const result = addTwoNumbers(3,5)//3,5 are the argument.
 // console.log("Result: ",result)
 
 
-// Example 1:-
+// Example 3:-
 
 function loginUserMessage(username){
     if(username === undefined){ // if(!username) another way.. to doing that
@@ -59,7 +59,7 @@ console.log(loginUserMessage()) // if i dont pass any value then the answer in "
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // Imp thing (in future) ::::-----
-function calculateCartPrice(val1,val2,...num1){ // ... refers to rest operator
+function calculateCartPrice(val1,val2,...num1){ // '...' refers to "rest operator"
     return num1
 
 }

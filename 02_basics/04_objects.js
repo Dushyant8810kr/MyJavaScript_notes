@@ -83,14 +83,26 @@ console.log(instruture)
 
 // json API ::::-------
 
-// API ka matlab simple hindi mai ye hota hai ki apna kaam dusr ke saar pe daal dena....
+// API ka matlab simple hindi mai ye hota hai ki apna kaam dusre ke saar pe daal dena....
 
 
 // {
 //     "name" : "Dushyant",
-
 // }
 
+//  [
+// {}
+// {}
+// {}
+// ]
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+const navbar = ({company}) => {//Destructure
+
+}
+navbar(comapny = "Dushyant")
 
 
 
